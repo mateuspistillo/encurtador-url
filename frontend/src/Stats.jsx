@@ -15,7 +15,7 @@ function Stats() {
     setDados(null);
 
     try {
-      const resposta = await axios.get(`http://localhost:3001/api/links/${codigo}/stats`);
+      const resposta = await axios.get(`https://encurtador-url-production-ef09.up.railway.app/api/links/${codigo}/stats`);
       setDados(resposta.data);
     } catch (err) {
       setErro('Link não encontrado.');

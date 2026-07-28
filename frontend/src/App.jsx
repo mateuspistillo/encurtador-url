@@ -15,7 +15,7 @@ function Home() {
     setUrlCurta('');
 
     try {
-      const resposta = await axios.post('http://localhost:3001/api/links', {
+      const resposta = await axios.post('https://encurtador-url-production-ef09.up.railway.app/api/links', {
         url_original: urlOriginal
       });
       setUrlCurta(resposta.data.url_curta);
