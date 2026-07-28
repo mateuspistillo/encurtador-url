@@ -42,7 +42,7 @@ function Stats() {
                 <form onSubmit={buscarStats}>
                     <input
                     type="text"
-                    placeholder="Cole o código do link (ex: 7i-yOx)"
+                    placeholder="Cole o código do link (ex: PJQeUm)"
                     value={codigo}
                     onChange={(e) => setCodigo(e.target.value)}
                     required
@@ -53,8 +53,14 @@ function Stats() {
                 {erro && <p className="erro">{erro}</p>}
 
                 {dados && (
+
                     <div className="resultado">
-                    <p><strong>URL original:</strong> {dados.url_original}</p>
+                      <p>
+                        <strong>
+                          URL original:
+                        </strong> 
+                        {dados.url_original.length > 60 ? dados.url_original.substring(0, 60) + '...' : dados.url_original}
+                      </p>
                     <p><strong>Total de cliques:</strong> {dados.total_cliques}</p>
 
                     {cliquesPorDia.length > 0 && (

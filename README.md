@@ -4,6 +4,11 @@ Aplicação full-stack para encurtar URLs e acompanhar estatísticas de cliques 
 
 ![Preview do projeto](screenshots/tela-inicial.gif)
 
+## 🌐 Projeto no ar
+
+- **Aplicação**: https://encurtador-url-nu.vercel.app
+- **API**: https://encurtador-url-production-ef09.up.railway.app
+
 ## ✨ Funcionalidades
 
 - Encurtar qualquer URL em um link curto único

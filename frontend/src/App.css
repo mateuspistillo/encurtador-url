@@ -105,3 +105,8 @@ button:hover {
   margin-top: 20px;
   color: #dc2626;
 }
+
+.resultado p {
+  word-break: break-all;
+  overflow-wrap: break-word;
+}
