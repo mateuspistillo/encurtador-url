@@ -2,8 +2,17 @@
 
 Aplicação full-stack para encurtar URLs e acompanhar estatísticas de cliques em tempo real, com dashboard visual.
 
-![Preview do projeto](screenshots/tela-inicial.gif)
+### Tela principal
+
+![Tela inicial](screenshots/tela-inicial.gif)
+
+<br>
+
+### Dashboard de estatísticas
+
 ![Estatísticas](screenshots/tela-stats.gif)
+
+<br>
 
 ## 🌐 Projeto no ar
 
