@@ -36,7 +36,7 @@ app.post('/api/links', async (req, res) => {
       'INSERT INTO links (codigo, url_original) VALUES (?, ?)',
       [codigo, url_original]
     );
-    res.json({ codigo, url_curta: `http://localhost:3001/${codigo}` });
+    res.json({ codigo, url_curta: `https://encurtador-url-production-ef09.up.railway.app/${codigo}` });
   } catch (erro) {
     console.error(erro);
     res.status(500).json({ erro: 'Erro ao criar link' });
